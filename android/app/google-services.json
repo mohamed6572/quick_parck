@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "74778442051",
+    "project_id": "quickparck",
+    "storage_bucket": "quickparck.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74778442051:android:d90e1a2c4b6c5752aad7f6",
+        "android_client_info": {
+          "package_name": "com.example.quick_parck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74778442051-8st18q83apcvqh05kaut7ksbkdj5dd3t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quick_parck",
+            "certificate_hash": "fa216961f4bcdd74fd3c8df39d2f1256907b8b61"
+          }
+        },
+        {
+          "client_id": "74778442051-vq5d703e64bgd470osf6m6dvihe0qf1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAAAp15GrNqHHaLOLBd9fnI9D9tOrPVuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "74778442051-vq5d703e64bgd470osf6m6dvihe0qf1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

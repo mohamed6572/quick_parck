@@ -1,0 +1,298 @@
+{
+    "app_exit": {
+        "exit_text": "اضغط مرة أخرى للخروج"
+    },
+    "add_vehicle": {
+        "add_vehicle": "أضف السيارة",
+        "add": "يضيف",
+        "vehicle_number": "مركبة ريج.رقم",
+        "enter_vehical_number": "أدخل رقم السجل المركبة",
+        "vehicle_name": "اسم السيارة",
+        "search_vehicle": "مركبة البحث",
+        "vehicle_type": "نوع السيارة"
+    },
+    "arrived": {
+        "you_arrived": "لقد وصلت!",
+        "text": "يرجى مسح رمز الاستجابة السريعة لوقوف السيارات على جهاز الماسح الضوئي للدخول",
+        "okay": "تمام",
+        "scan_ticket_success": "فحص نجاح التذاكر",
+        "countdown_text": "سيارتك متوقفة وسيتم العد التنازلي"
+    },
+    "login": {
+        "login": "تسجيل الدخول",
+        "phone_number": "رقم التليفون",
+        "please_text": "الرجاء إدخال رقم هاتفك وتسجيل الدخول إلى حسابك"
+    },
+    "otp": {
+        "resend": "إعادة إرسال",
+        "verify": "يؤكد",
+        "please_wait": "انتظر من فضلك",
+        "otp_title": "التحقق من OTP",
+        "confirmation_text": "تم إرسال رمز التأكيد إليك على رقم هاتفك المحمول +91 1234567890"
+    },
+    "register": {
+        "register": "يسجل",
+        "email_address": "عنوان البريد الإلكتروني",
+        "phone_number": "رقم التليفون",
+        "user_name": "اسم المستخدم",
+        "please_text": "يرجى ملء التفاصيل أدناه وإنشاء حسابك"
+    },
+    "book_parking_detail": {
+        "book_parking_detail": "كتاب تفاصيل وقوف السيارات",
+        "price": "سعر",
+        "hours": "ساعات",
+        "total_price": "السعر الكلي",
+        "continue": "يكمل",
+        "start_hour": "ساعة ابدأ",
+        "end_hour": "ساعة نهاية",
+        "duration": "مدة",
+        "select_date": "حدد تاريخ"
+    },
+    "bookmark": {
+        "my_bookmark": "المرجعية الخاصة بي",
+        "no_bookmark_here": "لا إشارة مرجعية هنا",
+        "removed_from_bookmark": "تمت إزالته من المرجعية",
+        "per_hour": "في الساعة",
+        "distance_value": "قيمة المسافة",
+        "min_walk": "دقيقة المشي",
+        "slot_available": "فتحة متوفرة",
+        "slot": "فتحة",
+        "book_now": "احجز الآن"
+    },
+    "bottomBar": {
+        "near_by": "مجاور",
+        "booking": "الحجز",
+        "saved": "أنقذ",
+        "pofile": "حساب تعريفي"
+    },
+    "confirmation": {
+        "booking_confirmation": "تأكيد الحجز",
+        "confirm_payment": "تأكيد الدفع",
+        "successful": "ناجح!",
+        "successful_text": "دفعت ناجحة للسيارات الخاصة بك",
+        "view_parking_ticket": "عرض تذكرة وقوف السيارات",
+        "back_home": "العودة إلى المنزل",
+        "credit_card": "بطاقة إئتمان",
+        "date": "تاريخ",
+        "duration": "مدة",
+        "vehicle": "عربة",
+        "hours": "ساعات",
+        "parking_slot": "فتحة وقوف السيارات",
+        "price": "السعر (في الساعة)",
+        "tax": "ضريبة",
+        "total_price": "السعر الكلي",
+        "hour": "ساعة",
+        "Hours": "ساعات"
+    },
+    "credit_card": {
+        "credit_card": "بطاقة إئتمان",
+        "payment": "قسط",
+        "enter_card_details": "أدخل تفاصيل بطاقتك",
+        "save_this_card": "احفظ هذه البطاقة",
+        "enter_card_name": "أدخل اسم حامل البطاقة",
+        "name_card": "الاسم على البطاقة",
+        "enter_card_number": "أدخل رقم البطاقة",
+        "card_number": "رقم البطاقة",
+        "expire_date": "تاريخ انتهاء الصلاحية",
+        "CVV": "cvv"
+    },
+    "detail": {
+        "add_bookmark": "أضاف إلى المرجعية",
+        "remove_bookmark": "تمت إزالته من المرجعية",
+        "more_image": "المزيد من الصورة",
+        "get_direction": "احصل على اتجاه",
+        "book_now": "احجز الآن",
+        "rate_review": "معدل ومراجعة",
+        "see_all": "اظهار الكل",
+        "facility_provide": "المرفق الذي نقدمه",
+        "information": "معلومة",
+        "hours": "ساعات",
+        "slot": "فتحة"
+    },
+    "direction": {
+        "search": "يبحث"
+    },
+    "extend_parking_time": {
+        "extend_parking_time": "تمديد وقت وقوف السيارات",
+        "price": "سعر",
+        "hours": "ساعات",
+        "total_price": "السعر الكلي",
+        "continue": "يكمل",
+        "start_hour": "ساعة ابدأ",
+        "end_hour": "ساعة نهاية",
+        "duration": "مدة",
+        "find": "ابحث عن مكان وقوف السيارات الخاص بك",
+        "search": "يبحث",
+        "filter": "منقي",
+        "clear_all": "امسح الكل",
+        "apply": "يتقدم",
+        "rating": "تقييم",
+        "distance": "مسافة",
+        "per_hour": "في الساعة",
+        "distance_value": "قيمة المسافة",
+        "min_walk": "دقيقة المشي",
+        "slot_available": "فتحة متوفرة",
+        "slot": "فتحة",
+        "book_now": "احجز الآن"
+    },
+    "my_booking": {
+        "active_now": "نشط الان",
+        "paid": "مدفوع",
+        "my_booking": "الحجز",
+        "hour": "ساعة",
+        "no_booking_yet": "لا الحجز حتى الآن",
+        "view_ticket": "عرض التذكرة",
+        "cancel_booking": "إلغاء الحجز",
+        "are_you_sure_message": "هل أنت متأكد من أنك تريد إلغاء حجز مواقف السيارات الخاصة بك؟",
+        "content": "بنسبة 80 ٪ فقط من الأموال التي يمكنك استردادها من paayment الخاص بك وفقًا لسياستنا",
+        "close": "يغلق",
+        "yes_continue": "نعم تابع",
+        "give_rate": "إعطاء معدل",
+        "your_review": "مراجعتك",
+        "please_text": "يرجى إعطاء معدل للسيارات Hapton Hoiles",
+        "say_something": "قل شيئا",
+        "remind_later": "ذكرني لاحقا",
+        "send": "يرسل",
+        "view_timer": "عرض مؤقت",
+        "ongoing_booking": "الحجز المستمر",
+        "booking_history": "تاريخ الحجز"
+    },
+    "notification": {
+        "notification": "إشعار",
+        "no_notification": "لا يوجد إشعار جديد",
+        "today": "اليوم",
+        "yesterday": "أمس",
+        "removed_notification": "تمت إزالته من الإخطار"
+    },
+    "onboarding": {
+        "title1": "استكشف مكان وقوف السيارات القريب",
+        "text1": "ابحث عن أقرب حديقة في منطقتك ، وسرعان ما حجز مساحة لوقوف السيارات الخاصة بك",
+        "title2": "لا مزيد من انتظار تذاكر وقوف السيارات",
+        "text2": "احجز مساحتك وتجنب الانتظار في طوابير طويلة للحصول على تذكرة",
+        "title3": "احجز ودفع بسهولة",
+        "text3": "لا مزيد من انتظار تذكرة وقوف السيارات ، احجز مع سهلة وسهلة الدفع عبر الوضع عبر الإنترنت",
+        "login": "تسجيل الدخول",
+        "next": "التالي",
+        "skip": "يتخطى"
+    },
+    "parking_ticket": {
+        "parking_ticket": "تذكرة وقوف السيارات",
+        "not_now": "ليس الآن",
+        "get_direction": "احصل على اتجاه",
+        "scan_text": "مسح هذا على جهاز الماسح الضوئي عندما تكون في مواقف السيارات",
+        "payment": "قسط",
+        "creditcard": "بطاقة إئتمان",
+        "name": "اسم",
+        "parking_slot": "فتحة وقوف السيارات",
+        "parking_area": "منطقة مواقف السيارات",
+        "vehicle": "عربة",
+        "duration": "مدة",
+        "date": "تاريخ",
+        "Hour": "ساعة",
+        "phone": "هاتف"
+    },
+    "parking_time": {
+        "parking_time": "وقت لوقوف السيارات",
+        "extend_parking_time": "تمديد وقت وقوف السيارات",
+        "name": "اسم",
+        "parking_slot": "فتحة وقوف السيارات",
+        "parking_area": "منطقة مواقف السيارات",
+        "vehicle": "عربة",
+        "duration": "مدة",
+        "date": "تاريخ",
+        "hour": "ساعة",
+        "phone": "هاتف"
+    },
+    "payment_method": {
+        "payment_method": "طريقة الدفع او السداد",
+        "continue": "يكمل",
+        "total_payment": "المبلغ الإجمالي"
+    },
+    "app_settings": {
+        "app_settings": "إعدادات التطبيقات",
+        "notification": "إشعار",
+        "location": "موقع",
+        "application_update": "تحديث التطبيق",
+        "dark_mode": "الوضع المظلم"
+    },
+    "edit_profile": {
+        "edit_profile": "تعديل الملف الشخصي",
+        "update": "تحديث",
+        "email_address": "عنوان البريد الإلكتروني",
+        "enter_email_address": "أدخل عنوان بريدك الالكتروني",
+        "name": "اسم",
+        "enter_name": "أدخل أسمك",
+        "mobile_number": "رقم الهاتف المحمول",
+        "enter_mobile_number": "أدخل رقم الهاتف المحمول",
+        "change_photo": "تغيير صورة الملف الشخصي",
+        "camera": "آلة تصوير",
+        "gallery": "صالة عرض",
+        "remove_image": "إزالة الصورة"
+    },
+    "help_support": {
+        "help_support": "ساعد لدعم",
+        "quick_contact": "اتصال سريع",
+        "send": "يرسل",
+        "message": "رسالة",
+        "write_message_here": "اكتب رسالة هنا",
+        "email_address": "عنوان البريد الإلكتروني",
+        "enter_email_address": "أدخل عنوان بريدك الالكتروني",
+        "name": "اسم",
+        "enter_name": "أدخل أسمك",
+        "call_us": "اتصل بنا",
+        "mail_us": "أرسلنا بالبريد"
+    },
+    "languages": {
+        "language": "لغة",
+        "update": "تحديث"
+    },
+    "my_vehicle": {
+        "my_vehicle": "سيارتي",
+        "add_new_vehicle": "أضف مركبة جديدة"
+    },
+    "privacy_policy": {
+        "privacy_policy": "سياسة الخصوصية"
+    },
+    "profile": {
+        "profile": "حساب تعريفي",
+        "wallet": "محفظة",
+        "my_vehicle": "سيارتي",
+        "help_support": "ساعد لدعم",
+        "privacy_policy": "سياسة الخصوصية",
+        "terms_condition": "أحكام وشروط",
+        "language": "لغة",
+        "app_settings": "إعدادات التطبيقات",
+        "logout": "تسجيل خروج",
+        "sure_text": "هل أنت متأكد من أنك تريد تسجيل هذا التطبيق؟",
+        "no": "لا",
+        "yes_logout": "نعم تسجيل الخروج",
+        "edit_profile": "تعديل الملف الشخصي",
+        "change_photo": "تغيير صورة الملف الشخصي",
+        "camera": "آلة تصوير",
+        "gallery": "صالة عرض",
+        "remove_image": "إزالة الصورة"
+    },
+    "term_and_condition": {
+        "terms_and_condition": "أحكام وشروط"
+    },
+    "wallet": {
+        "wallet": "محفظة",
+        "total_amount": "المبلغ الإجمالي",
+        "add_money": "إضافة المال",
+        "send_bank": "أرسل إلى البنك"
+    },
+    "review": {
+        "review": "مراجعة"
+    },
+    "select_slot": {
+        "select_slot": "حدد الفتحة الخاصة بك",
+        "exit": "مخرج",
+        "entry": "دخول",
+        "proceed_slot": "المضي قدمًا في فتحة B1"
+    },
+    "select_vehicle": {
+        "select_vehicle": "حدد سيارتك",
+        "continue": "يكمل",
+        "add_vehicle": "أضف مركبة جديدة"
+    }
+}

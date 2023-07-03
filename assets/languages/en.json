@@ -1,0 +1,299 @@
+{
+    "app_exit": {
+        "exit_text": "Press back once again to exit"
+    },
+    "add_vehicle": {
+        "add_vehicle": "Add vehicle",
+        "add": "Add",
+        "vehicle_number": "Vehicle reg. number",
+        "enter_vehical_number": "Enter vehical register number",
+        "vehicle_name": "Vehicle name",
+        "search_vehicle": "Search vehicle",
+        "vehicle_type": "Vehicle type"
+    },
+    "arrived": {
+        "you_arrived": "You have arrived!",
+        "text": "Please scan your parking Qr code on the scanner machine to enter",
+        "okay": "Okay",
+        "scan_ticket_success": "Scan ticket success",
+        "countdown_text": "Your vehicle is parked and time will be countdown"
+    },
+    "login": {
+        "login": "Login",
+        "phone_number": "Email",
+        "password": "Password",
+        "please_text": "Please enter your phone number and login your account"
+    },
+    "otp": {
+        "resend": "Resend",
+        "verify": "Verify",
+        "please_wait": "Please wait",
+        "otp_title": "OTP Verification",
+        "confirmation_text": "Confirmation Code has been sent to you on your mobile number +91 1234567890"
+    },
+    "register": {
+        "register": "Register",
+        "email_address": "Email address",
+        "phone_number": "Phone number",
+        "user_name": "User name",
+        "please_text": "Please filled below detail and create your account"
+    },
+    "book_parking_detail": {
+        "book_parking_detail": "Book parking detail",
+        "price": "Price",
+        "hours": "hours",
+        "total_price": "Total price",
+        "continue": "Continue",
+        "start_hour": "Start hour",
+        "end_hour": "End hour",
+        "duration": "Duration",
+        "select_date": "Select date"
+    },
+    "bookmark": {
+        "my_bookmark": "My Bookmark",
+        "no_bookmark_here": "No bookmark here",
+        "removed_from_bookmark": "Removed from bookmark",
+        "per_hour": "per hour",
+        "distance_value": "Distance value",
+        "min_walk": "min walk",
+        "slot_available": "Slot Available",
+        "slot": "slot",
+        "book_now": "Book now"
+    },
+    "bottomBar": {
+        "near_by": "Near by",
+        "booking": "Booking",
+        "saved": "Saved",
+        "pofile": "Profile"
+    },
+    "confirmation": {
+        "booking_confirmation": "Booking confirmation",
+        "confirm_payment": "Confirm payment",
+        "successful": "Successful!",
+        "successful_text": "Successful made payment for your parking",
+        "view_parking_ticket": "View parking ticket",
+        "back_home": "Back to home",
+        "credit_card": "Credit card",
+        "date": "Date",
+        "duration": "Duration",
+        "vehicle": "Vehicle",
+        "hours": "Hours",
+        "parking_slot": "Parking slot",
+        "price": "Price(per hour)",
+        "tax": "Tax",
+        "total_price": "Total price",
+        "hour": "hour",
+        "Hours": "hours"
+    },
+    "credit_card": {
+        "credit_card": "Credit card",
+        "payment": "Payment",
+        "enter_card_details": "Enter your card details",
+        "save_this_card": "save this card",
+        "enter_card_name": "Enter card holdar name",
+        "name_card": "Name on card",
+        "enter_card_number": "Enter card number",
+        "card_number": "Card number",
+        "expire_date": "Expire date",
+        "CVV": "CVV"
+    },
+    "detail": {
+        "add_bookmark": "Added to bookmark",
+        "remove_bookmark": "Removed from bookmark",
+        "more_image": "More image",
+        "get_direction": "Get direction",
+        "book_now": "Book now",
+        "rate_review": "Rate and review",
+        "see_all": "See all",
+        "facility_provide": "Facility we provide",
+        "information": "Information",
+        "hours": "hours",
+        "slot": "Slot"
+    },
+    "direction": {
+        "search": "Search"
+    },
+    "extend_parking_time": {
+        "extend_parking_time": "Extend parking time",
+        "price": "Price",
+        "hours": "hours",
+        "total_price": "Total price",
+        "continue": "Continue",
+        "start_hour": "Start hour",
+        "end_hour": "End hour",
+        "duration": "Duration",
+        "find": "Find your parking spot",
+        "search": "Search",
+        "filter": "Filter",
+        "clear_all": "Clear all",
+        "apply": "Apply",
+        "rating": "Rating",
+        "distance": "Distance",
+        "per_hour": "per hour",
+        "distance_value": "Distance value",
+        "min_walk": "min walk",
+        "slot_available": "Slot Available",
+        "slot": "slot",
+        "book_now": "Book now"
+    },
+    "my_booking": {
+        "active_now": "Active now",
+        "paid": "Paid",
+        "my_booking": "My Booking",
+        "hour": "hour",
+        "no_booking_yet": "No booking yet",
+        "view_ticket": "View ticket",
+        "cancel_booking": "Cancel booking",
+        "are_you_sure_message": "Are you sure you want to cancel your parking reservation?",
+        "content": "Only 80% off money you can refund from your paayment according to our policy",
+        "close": "Close",
+        "yes_continue": "Yes continue",
+        "give_rate": "Give rate",
+        "your_review": "Your review",
+        "please_text": "Please give a rate hapton hoiles parking",
+        "say_something": "Say something",
+        "remind_later": "Remind me later",
+        "send": "Send",
+        "view_timer": "View timer",
+        "ongoing_booking": "Ongoing booking",
+        "booking_history": "Booking history"
+    },
+    "notification": {
+        "notification": "Notification",
+        "no_notification": "No new notification",
+        "today": "Today",
+        "yesterday": "Yesterday",
+        "removed_notification": "Removed from notification"
+    },
+    "onboarding": {
+        "title1": "Explore nearby parking spot",
+        "text1": "Search for closest park in your area, fast and secure pre book your parking space",
+        "title2": "No more waiting for parking tickets",
+        "text2": "Book your space and avoid waiting in long queues for a ticket",
+        "title3": "Easily book & payment",
+        "text3": "No more waiting for parking ticket, book with easy and easily pay via online mode",
+        "login": "LOGIN",
+        "next": "NEXT",
+        "skip": "SKIP"
+    },
+    "parking_ticket": {
+        "parking_ticket": "Parking ticket",
+        "not_now": "Not now",
+        "get_direction": "Get direction",
+        "scan_text": "scan this  on the scanner machine when you are in the parking",
+        "payment": "Payment",
+        "creditcard": "creditcard",
+        "name": "Name",
+        "parking_slot": "Parking slot",
+        "parking_area": "Parking area",
+        "vehicle": "Vehicle",
+        "duration": "Duration",
+        "date": "Date",
+        "Hour": "Hour",
+        "phone": "Phone"
+    },
+    "parking_time": {
+        "parking_time": "Parking time",
+        "extend_parking_time": "Extend parking time",
+        "name": "Name",
+        "parking_slot": "Parking slot",
+        "parking_area": "Parking area",
+        "vehicle": "Vehicle",
+        "duration": "Duration",
+        "date": "Date",
+        "hour": "Hour",
+        "phone": "Phone"
+    },
+    "payment_method": {
+        "payment_method": "Payment method",
+        "continue": "Continue",
+        "total_payment": "Total payment"
+    },
+    "app_settings": {
+        "app_settings": "App settings",
+        "notification": "Notification",
+        "location": "Location",
+        "application_update": "Application update",
+        "dark_mode": "Dark mode"
+    },
+    "edit_profile": {
+        "edit_profile": "Edit profile",
+        "update": "Update",
+        "email_address": "Email Address",
+        "enter_email_address": "Enter your email address",
+        "name": "Name",
+        "enter_name": "Enter your name",
+        "mobile_number": "Mobile number",
+        "enter_mobile_number": "Enter mobile number",
+        "change_photo": "Change Profile Photo",
+        "camera": "Camera",
+        "gallery": "Gallery",
+        "remove_image": "Remove image"
+    },
+    "help_support": {
+        "help_support": "Help & support",
+        "quick_contact": "Quick contact",
+        "send": "Send",
+        "message": "Message",
+        "write_message_here": "Write message here",
+        "email_address": "Email Address",
+        "enter_email_address": "Enter your email address",
+        "name": "Name",
+        "enter_name": "Enter your name",
+        "call_us": "Call us",
+        "mail_us": "Mail us"
+    },
+    "languages": {
+        "language": "Language",
+        "update": "Update"
+    },
+    "my_vehicle": {
+        "my_vehicle": "My vehicle",
+        "add_new_vehicle": "Add new vehicle"
+    },
+    "privacy_policy": {
+        "privacy_policy": "Privacy policy"
+    },
+    "profile": {
+        "profile": "Profile",
+        "wallet": "Wallet",
+        "my_vehicle": "My vehicle",
+        "help_support": "Help & support",
+        "privacy_policy": "Privacy policy",
+        "terms_condition": "Terms and condition",
+        "language": "Language",
+        "app_settings": "App settings",
+        "logout": "Logout",
+        "sure_text": "Are you sure you want to logout this app?",
+        "no": "No",
+        "yes_logout": "Yes logout",
+        "edit_profile": "Edit profile",
+        "change_photo": "Change Profile Photo",
+        "camera": "Camera",
+        "gallery": "Gallery",
+        "remove_image": "Remove image"
+    },
+    "term_and_condition": {
+        "terms_and_condition": "Terms and condition"
+    },
+    "wallet": {
+        "wallet": "Wallet",
+        "total_amount": "Total amount",
+        "add_money": "Add money",
+        "send_bank": "Send to bank"
+    },
+    "review": {
+        "review": "Review"
+    },
+    "select_slot": {
+        "select_slot": "Select your Slot",
+        "exit": "Exit",
+        "entry": "Entry",
+        "proceed_slot": "Proceed with A1 slot"
+    },
+    "select_vehicle": {
+        "select_vehicle": "Select your vehicle",
+        "continue": "Continue",
+        "add_vehicle": "Add new vehicle"
+    }
+}

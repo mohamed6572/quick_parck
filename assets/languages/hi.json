@@ -1,0 +1,298 @@
+{
+    "app_exit": {
+        "exit_text": "बाहर निकलने के लिए एक बार फिर से दबाएं"
+    },
+    "add_vehicle": {
+        "add_vehicle": "वाहन जोड़ें",
+        "add": "जोड़ना",
+        "vehicle_number": "वाहन reg।संख्या",
+        "enter_vehical_number": "वाहन रजिस्टर नंबर दर्ज करें",
+        "vehicle_name": "वाहन का नाम",
+        "search_vehicle": "खोज वाहन",
+        "vehicle_type": "वाहन का प्रकार"
+    },
+    "arrived": {
+        "you_arrived": "आप पहूंच गए हैं!",
+        "text": "कृपया प्रवेश करने के लिए स्कैनर मशीन पर अपने पार्किंग क्यूआर कोड को स्कैन करें",
+        "okay": "ठीक",
+        "scan_ticket_success": "स्कैन टिकट की सफलता",
+        "countdown_text": "आपका वाहन पार्क किया गया है और समय उलटी गिनती होगी"
+    },
+    "login": {
+        "login": "लॉग इन करें",
+        "phone_number": "फ़ोन नंबर",
+        "please_text": "कृपया अपना फ़ोन नंबर दर्ज करें और अपना खाता लॉगिन करें"
+    },
+    "otp": {
+        "resend": "पुन: भेजें",
+        "verify": "सत्यापित करना",
+        "please_wait": "कृपया प्रतीक्षा करें",
+        "otp_title": "ओटीपी सत्यापन",
+        "confirmation_text": "आपके मोबाइल नंबर +91 1234567890 पर आपको पुष्टिकरण कोड भेजा गया है"
+    },
+    "register": {
+        "register": "पंजीकरण करवाना",
+        "email_address": "मेल पता",
+        "phone_number": "फ़ोन नंबर",
+        "user_name": "उपयोगकर्ता नाम",
+        "please_text": "कृपया नीचे विवरण भरें और अपना खाता बनाएं"
+    },
+    "book_parking_detail": {
+        "book_parking_detail": "बुक पार्किंग विवरण",
+        "price": "कीमत",
+        "hours": "घंटे",
+        "total_price": "कुल कीमत",
+        "continue": "जारी रखना",
+        "start_hour": "शुरू",
+        "end_hour": "अंत समय",
+        "duration": "अवधि",
+        "select_date": "तारीख़ चुनें"
+    },
+    "bookmark": {
+        "my_bookmark": "मेरी बुकमार्क",
+        "no_bookmark_here": "यहाँ कोई बुकमार्क नहीं",
+        "removed_from_bookmark": "बुकमार्क से हटा दिया गया",
+        "per_hour": "घंटे से",
+        "distance_value": "दूरी मूल्य",
+        "min_walk": "न्यूनतम वॉक",
+        "slot_available": "स्लॉट उपलब्ध है",
+        "slot": "छेद",
+        "book_now": "अभी बुक करें"
+    },
+    "bottomBar": {
+        "near_by": "आस-पास",
+        "booking": "बुकिंग",
+        "saved": "बचाया",
+        "pofile": "प्रोफ़ाइल"
+    },
+    "confirmation": {
+        "booking_confirmation": "बुकिंग की पुष्टि",
+        "confirm_payment": "भुगतान की पुष्टि करें",
+        "successful": "सफल!",
+        "successful_text": "आपकी पार्किंग के लिए सफल भुगतान",
+        "view_parking_ticket": "पार्किंग टिकट देखें",
+        "back_home": "घर वापिस जा रहा हूँ",
+        "credit_card": "क्रेडिट कार्ड",
+        "date": "तारीख",
+        "duration": "अवधि",
+        "vehicle": "वाहन",
+        "hours": "घंटे",
+        "parking_slot": "पार्किंग का स्थान",
+        "price": "मूल्य (प्रति घंटे)",
+        "tax": "कर",
+        "total_price": "कुल कीमत",
+        "hour": "घंटा",
+        "Hours": "घंटे"
+    },
+    "credit_card": {
+        "credit_card": "क्रेडिट कार्ड",
+        "payment": "भुगतान",
+        "enter_card_details": "अपना कार्ड विवरण दर्ज करें",
+        "save_this_card": "इस कार्ड को सहेजें",
+        "enter_card_name": "कार्ड धारक का नाम दर्ज करें",
+        "name_card": "कार्ड पर नाम",
+        "enter_card_number": "कार्ड नंबर दर्ज करें",
+        "card_number": "कार्ड संख्या",
+        "expire_date": "समाप्त होने की तिथि",
+        "CVV": "सीवीवी"
+    },
+    "detail": {
+        "add_bookmark": "बुकमार्क में जोड़ा गया",
+        "remove_bookmark": "बुकमार्क से हटा दिया गया",
+        "more_image": "अधिक छवि",
+        "get_direction": "दिशा प्राप्त करना",
+        "book_now": "अभी बुक करें",
+        "rate_review": "दर नियत करें और समीक्षा करें",
+        "see_all": "सभी देखें",
+        "facility_provide": "सुविधा हम प्रदान करते हैं",
+        "information": "जानकारी",
+        "hours": "घंटे",
+        "slot": "छेद"
+    },
+    "direction": {
+        "search": "खोज"
+    },
+    "extend_parking_time": {
+        "extend_parking_time": "पार्किंग समय का विस्तार करें",
+        "price": "कीमत",
+        "hours": "घंटे",
+        "total_price": "कुल कीमत",
+        "continue": "जारी रखना",
+        "start_hour": "शुरू",
+        "end_hour": "अंत समय",
+        "duration": "अवधि",
+        "find": "अपने पार्किंग स्थल का पता लगाएं",
+        "search": "खोज",
+        "filter": "फ़िल्टर",
+        "clear_all": "सभी साफ करें",
+        "apply": "आवेदन करना",
+        "rating": "रेटिंग",
+        "distance": "दूरी",
+        "per_hour": "घंटे से",
+        "distance_value": "दूरी मूल्य",
+        "min_walk": "न्यूनतम वॉक",
+        "slot_available": "स्लॉट उपलब्ध है",
+        "slot": "छेद",
+        "book_now": "अभी बुक करें"
+    },
+    "my_booking": {
+        "active_now": "अब सक्रिय",
+        "paid": "चुकाया गया",
+        "my_booking": "मेरी बुकिंग",
+        "hour": "घंटा",
+        "no_booking_yet": "अभी तक कोई बुकिंग नहीं",
+        "view_ticket": "टिकट देखें",
+        "cancel_booking": "रद्द बुकिंग",
+        "are_you_sure_message": "क्या आप सुनिश्चित हैं कि आप अपना पार्किंग आरक्षण रद्द करना चाहते हैं?",
+        "content": "केवल 80% से पैसा आप हमारी नीति के अनुसार अपने पायदान से वापस कर सकते हैं",
+        "close": "बंद करना",
+        "yes_continue": "हाँ जारी रखें",
+        "give_rate": "दर देना",
+        "your_review": "आपकी समीक्षा",
+        "please_text": "कृपया एक दर हैपटन होलिस पार्किंग दें",
+        "say_something": "कुछ कहो",
+        "remind_later": "मुझे बाद में याद दिलाना",
+        "send": "भेजना",
+        "view_timer": "देखें टाइमर",
+        "ongoing_booking": "चल रही बुकिंग",
+        "booking_history": "बुकिंग इतिहास"
+    },
+    "notification": {
+        "notification": "अधिसूचना",
+        "no_notification": "कोई नई अधिसूचना नहीं",
+        "today": "आज",
+        "yesterday": "कल",
+        "removed_notification": "अधिसूचना से हटा दिया गया"
+    },
+    "onboarding": {
+        "title1": "पास के पार्किंग स्थल का अन्वेषण करें",
+        "text1": "अपने क्षेत्र में निकटतम पार्क की खोज करें, तेजी से और सुरक्षित प्री बुक योर पार्किंग स्पेस",
+        "title2": "पार्किंग टिकट के लिए कोई और इंतजार नहीं",
+        "text2": "अपने स्थान को बुक करें और टिकट के लिए लंबी कतारों में प्रतीक्षा करने से बचें",
+        "title3": "आसानी से बुक और भुगतान",
+        "text3": "पार्किंग टिकट के लिए और अधिक इंतजार नहीं, आसान और आसानी से ऑनलाइन मोड के माध्यम से भुगतान करें",
+        "login": "लॉग इन करें",
+        "next": "अगला",
+        "skip": "छोडना"
+    },
+    "parking_ticket": {
+        "parking_ticket": "पार्किंग टिकट",
+        "not_now": "अभी नहीं",
+        "get_direction": "दिशा प्राप्त करना",
+        "scan_text": "जब आप पार्किंग में हों तो स्कैनर मशीन पर इसे स्कैन करें",
+        "payment": "भुगतान",
+        "creditcard": "क्रेडिट कार्ड",
+        "name": "नाम",
+        "parking_slot": "पार्किंग का स्थान",
+        "parking_area": "पार्किंग क्षेत्र",
+        "vehicle": "वाहन",
+        "duration": "अवधि",
+        "date": "तारीख",
+        "Hour": "घंटा",
+        "phone": "फ़ोन"
+    },
+    "parking_time": {
+        "parking_time": "पार्किंग समय",
+        "extend_parking_time": "पार्किंग समय का विस्तार करें",
+        "name": "नाम",
+        "parking_slot": "पार्किंग का स्थान",
+        "parking_area": "पार्किंग क्षेत्र",
+        "vehicle": "वाहन",
+        "duration": "अवधि",
+        "date": "तारीख",
+        "hour": "घंटा",
+        "phone": "फ़ोन"
+    },
+    "payment_method": {
+        "payment_method": "भुगतान विधि",
+        "continue": "जारी रखना",
+        "total_payment": "कुल भुगतान"
+    },
+    "app_settings": {
+        "app_settings": "एप्लिकेशन सेटिंग",
+        "notification": "अधिसूचना",
+        "location": "जगह",
+        "application_update": "अनुप्रयोग अद्यतन",
+        "dark_mode": "डार्क मोड"
+    },
+    "edit_profile": {
+        "edit_profile": "प्रोफ़ाइल संपादित करें",
+        "update": "अद्यतन",
+        "email_address": "मेल पता",
+        "enter_email_address": "अपना ईमेल पता दर्ज करें",
+        "name": "नाम",
+        "enter_name": "अपना नाम दर्ज करें",
+        "mobile_number": "मोबाइल नंबर",
+        "enter_mobile_number": "मोबाइल नंबर दर्ज करें",
+        "change_photo": "प्रोफ़ाइल फोटो बदलें",
+        "camera": "कैमरा",
+        "gallery": "गेलरी",
+        "remove_image": "छवि निकालें"
+    },
+    "help_support": {
+        "help_support": "मदद समर्थन",
+        "quick_contact": "त्वरित संपर्क करें",
+        "send": "भेजना",
+        "message": "संदेश",
+        "write_message_here": "यहाँ संदेश लिखें",
+        "email_address": "मेल पता",
+        "enter_email_address": "अपना ईमेल पता दर्ज करें",
+        "name": "नाम",
+        "enter_name": "अपना नाम दर्ज करें",
+        "call_us": "हमें बुलाओ",
+        "mail_us": "हमें मेल करें"
+    },
+    "languages": {
+        "language": "भाषा",
+        "update": "अद्यतन"
+    },
+    "my_vehicle": {
+        "my_vehicle": "मेरा वाहन",
+        "add_new_vehicle": "नया वाहन जोड़ें"
+    },
+    "privacy_policy": {
+        "privacy_policy": "गोपनीयता नीति"
+    },
+    "profile": {
+        "profile": "प्रोफ़ाइल",
+        "wallet": "बटुआ",
+        "my_vehicle": "मेरा वाहन",
+        "help_support": "मदद समर्थन",
+        "privacy_policy": "गोपनीयता नीति",
+        "terms_condition": "नियम व शर्तें",
+        "language": "भाषा",
+        "app_settings": "एप्लिकेशन सेटिंग",
+        "logout": "लॉग आउट",
+        "sure_text": "क्या आप सुनिश्चित हैं कि आप इस ऐप को लॉगआउट करना चाहते हैं?",
+        "no": "नहीं",
+        "yes_logout": "हाँ लॉगआउट",
+        "edit_profile": "प्रोफ़ाइल संपादित करें",
+        "change_photo": "प्रोफ़ाइल फोटो बदलें",
+        "camera": "कैमरा",
+        "gallery": "गेलरी",
+        "remove_image": "छवि निकालें"
+    },
+    "term_and_condition": {
+        "terms_and_condition": "नियम व शर्तें"
+    },
+    "wallet": {
+        "wallet": "बटुआ",
+        "total_amount": "कुल राशि",
+        "add_money": "पैसे जोड़ें",
+        "send_bank": "बैंक को भेजें"
+    },
+    "review": {
+        "review": "समीक्षा"
+    },
+    "select_slot": {
+        "select_slot": "अपने स्लॉट का चयन करें",
+        "exit": "बाहर निकलना",
+        "entry": "प्रवेश",
+        "proceed_slot": "B1 स्लॉट के साथ आगे बढ़ें"
+    },
+    "select_vehicle": {
+        "select_vehicle": "अपने वाहन का चयन करें",
+        "continue": "जारी रखना",
+        "add_vehicle": "नया वाहन जोड़ें"
+    }
+}

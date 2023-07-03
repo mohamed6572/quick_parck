@@ -1,0 +1,298 @@
+{
+    "app_exit": {
+        "exit_text": "再次向后退出"
+    },
+    "add_vehicle": {
+        "add_vehicle": "添加车辆",
+        "add": "添加",
+        "vehicle_number": "车辆登记。数字",
+        "enter_vehical_number": "输入车辆登记号码",
+        "vehicle_name": "车名",
+        "search_vehicle": "搜索车辆",
+        "vehicle_type": "车辆类型"
+    },
+    "arrived": {
+        "you_arrived": "你已到达！",
+        "text": "请在扫描仪机上扫描您的停车QR代码以输入",
+        "okay": "好的",
+        "scan_ticket_success": "扫描票成功",
+        "countdown_text": "您的车辆停放，时间将是倒计时"
+    },
+    "login": {
+        "login": "登录",
+        "phone_number": "电话号码",
+        "please_text": "请输入您的电话号码并登录您的帐户"
+    },
+    "otp": {
+        "resend": "重发",
+        "verify": "核实",
+        "please_wait": "请稍等",
+        "otp_title": "OTP验证",
+        "confirmation_text": "确认代码已发送给您的手机号码+91 1234567890"
+    },
+    "register": {
+        "register": "登记",
+        "email_address": "电子邮件地址",
+        "phone_number": "电话号码",
+        "user_name": "用户名",
+        "please_text": "请填写以下详细信息并创建您的帐户"
+    },
+    "book_parking_detail": {
+        "book_parking_detail": "预订停车细节",
+        "price": "价格",
+        "hours": "小时",
+        "total_price": "总价",
+        "continue": "继续",
+        "start_hour": "开始小时",
+        "end_hour": "结束小时",
+        "duration": "期间",
+        "select_date": "选择日期"
+    },
+    "bookmark": {
+        "my_bookmark": "我的书签",
+        "no_bookmark_here": "这里没有书签",
+        "removed_from_bookmark": "从书签中删除",
+        "per_hour": "每小时",
+        "distance_value": "距离值",
+        "min_walk": "最小步行",
+        "slot_available": "可用的插槽",
+        "slot": "投币口",
+        "book_now": "现在预订"
+    },
+    "bottomBar": {
+        "near_by": "附近",
+        "booking": "预订",
+        "saved": "保存",
+        "pofile": "轮廓"
+    },
+    "confirmation": {
+        "booking_confirmation": "预订确认通知",
+        "confirm_payment": "确认付款",
+        "successful": "成功的！",
+        "successful_text": "成功为您的停车付款",
+        "view_parking_ticket": "查看停车票",
+        "back_home": "回到家",
+        "credit_card": "信用卡",
+        "date": "日期",
+        "duration": "期间",
+        "vehicle": "车辆",
+        "hours": "小时",
+        "parking_slot": "停车位",
+        "price": "价格（每小时）",
+        "tax": "税",
+        "total_price": "总价",
+        "hour": "小时",
+        "Hours": "小时"
+    },
+    "credit_card": {
+        "credit_card": "信用卡",
+        "payment": "支付",
+        "enter_card_details": "输入您的卡详细信息",
+        "save_this_card": "保存此卡",
+        "enter_card_name": "输入卡持有人名称",
+        "name_card": "卡片上的名字",
+        "enter_card_number": "输入卡号",
+        "card_number": "卡号",
+        "expire_date": "到期日期",
+        "CVV": "cvv"
+    },
+    "detail": {
+        "add_bookmark": "添加到书签",
+        "remove_bookmark": "从书签中删除",
+        "more_image": "更多图像",
+        "get_direction": "得到指引",
+        "book_now": "现在预订",
+        "rate_review": "打分和评论",
+        "see_all": "查看全部",
+        "facility_provide": "我们提供的设施",
+        "information": "信息",
+        "hours": "小时",
+        "slot": "投币口"
+    },
+    "direction": {
+        "search": "搜索"
+    },
+    "extend_parking_time": {
+        "extend_parking_time": "延长停车时间",
+        "price": "价格",
+        "hours": "小时",
+        "total_price": "总价",
+        "continue": "继续",
+        "start_hour": "开始小时",
+        "end_hour": "结束小时",
+        "duration": "期间",
+        "find": "找到您的停车位",
+        "search": "搜索",
+        "filter": "筛选",
+        "clear_all": "清除全部",
+        "apply": "申请",
+        "rating": "评分",
+        "distance": "距离",
+        "per_hour": "每小时",
+        "distance_value": "距离值",
+        "min_walk": "最小步行",
+        "slot_available": "可用的插槽",
+        "slot": "投币口",
+        "book_now": "现在预订"
+    },
+    "my_booking": {
+        "active_now": "现在激活",
+        "paid": "有薪酬的",
+        "my_booking": "我的预订",
+        "hour": "小时",
+        "no_booking_yet": "还没有预订",
+        "view_ticket": "查看票",
+        "cancel_booking": "取消预订",
+        "are_you_sure_message": "您确定要取消停车位吗？",
+        "content": "根据我们的政策，您只能从付款中退还80％的钱",
+        "close": "关闭",
+        "yes_continue": "是的，继续",
+        "give_rate": "给出费率",
+        "your_review": "你的意见",
+        "please_text": "请给予费用Hapton Hoiles停车",
+        "say_something": "说些什么",
+        "remind_later": "稍后提醒我",
+        "send": "发送",
+        "view_timer": "查看计时器",
+        "ongoing_booking": "正在进行的预订",
+        "booking_history": "预订历史"
+    },
+    "notification": {
+        "notification": "通知",
+        "no_notification": "没有新的通知",
+        "today": "今天",
+        "yesterday": "昨天",
+        "removed_notification": "从通知中删除"
+    },
+    "onboarding": {
+        "title1": "探索附近的停车位",
+        "text1": "在您所在地区搜索最接近的公园，快速安全地预订您的停车位",
+        "title2": "不再等待停车票",
+        "text2": "预订您的空间，避免长期等待票",
+        "title3": "轻松预订和付款",
+        "text3": "不再等待停车票，可以轻松预订，轻松地通过在线模式付款",
+        "login": "登录",
+        "next": "下一个",
+        "skip": "跳过"
+    },
+    "parking_ticket": {
+        "parking_ticket": "停车票",
+        "not_now": "现在不要",
+        "get_direction": "得到指引",
+        "scan_text": "当您在停车场时，请在扫描仪机器上扫描此扫描",
+        "payment": "支付",
+        "creditcard": "信用卡",
+        "name": "姓名",
+        "parking_slot": "停车位",
+        "parking_area": "停车场",
+        "vehicle": "车辆",
+        "duration": "期间",
+        "date": "日期",
+        "Hour": "小时",
+        "phone": "电话"
+    },
+    "parking_time": {
+        "parking_time": "停车时间",
+        "extend_parking_time": "延长停车时间",
+        "name": "姓名",
+        "parking_slot": "停车位",
+        "parking_area": "停车场",
+        "vehicle": "车辆",
+        "duration": "期间",
+        "date": "日期",
+        "hour": "小时",
+        "phone": "电话"
+    },
+    "payment_method": {
+        "payment_method": "付款方式",
+        "continue": "继续",
+        "total_payment": "总付款"
+    },
+    "app_settings": {
+        "app_settings": "应用设置",
+        "notification": "通知",
+        "location": "地点",
+        "application_update": "应用程序更新",
+        "dark_mode": "黑暗模式"
+    },
+    "edit_profile": {
+        "edit_profile": "编辑个人资料",
+        "update": "更新",
+        "email_address": "电子邮件地址",
+        "enter_email_address": "输入你的电子邮箱地址",
+        "name": "姓名",
+        "enter_name": "输入你的名字",
+        "mobile_number": "手机号码",
+        "enter_mobile_number": "输入手机号码",
+        "change_photo": "更改个人资料照片",
+        "camera": "相机",
+        "gallery": "画廊",
+        "remove_image": "删除图像"
+    },
+    "help_support": {
+        "help_support": "帮助支持",
+        "quick_contact": "快速联系",
+        "send": "发送",
+        "message": "信息",
+        "write_message_here": "在这里写消息",
+        "email_address": "电子邮件地址",
+        "enter_email_address": "输入你的电子邮箱地址",
+        "name": "姓名",
+        "enter_name": "输入你的名字",
+        "call_us": "打电话给我们",
+        "mail_us": "邮寄我们"
+    },
+    "languages": {
+        "language": "语言",
+        "update": "更新"
+    },
+    "my_vehicle": {
+        "my_vehicle": "我的车",
+        "add_new_vehicle": "添加新车辆"
+    },
+    "privacy_policy": {
+        "privacy_policy": "隐私政策"
+    },
+    "profile": {
+        "profile": "轮廓",
+        "wallet": "钱包",
+        "my_vehicle": "我的车",
+        "help_support": "帮助支持",
+        "privacy_policy": "隐私政策",
+        "terms_condition": "附带条约",
+        "language": "语言",
+        "app_settings": "应用设置",
+        "logout": "登出",
+        "sure_text": "您确定要注销此应用吗？",
+        "no": "不",
+        "yes_logout": "是注销",
+        "edit_profile": "编辑个人资料",
+        "change_photo": "更改个人资料照片",
+        "camera": "相机",
+        "gallery": "画廊",
+        "remove_image": "删除图像"
+    },
+    "term_and_condition": {
+        "terms_and_condition": "附带条约"
+    },
+    "wallet": {
+        "wallet": "钱包",
+        "total_amount": "总金额",
+        "add_money": "加钱",
+        "send_bank": "发送到银行"
+    },
+    "review": {
+        "review": "审查"
+    },
+    "select_slot": {
+        "select_slot": "选择您的插槽",
+        "exit": "出口",
+        "entry": "入口",
+        "proceed_slot": "继续B1插槽"
+    },
+    "select_vehicle": {
+        "select_vehicle": "选择您的车辆",
+        "continue": "继续",
+        "add_vehicle": "添加新车辆"
+    }
+}

@@ -1,0 +1,298 @@
+{
+    "app_exit": {
+        "exit_text": "Tekan kembali sekali lagi untuk keluar"
+    },
+    "add_vehicle": {
+        "add_vehicle": "Tambahkan kendaraan",
+        "add": "Menambahkan",
+        "vehicle_number": "Kendaraan Reg.nomor",
+        "enter_vehical_number": "Masukkan nomor register kendaraan",
+        "vehicle_name": "Nama Kendaraan",
+        "search_vehicle": "Kendaraan pencarian",
+        "vehicle_type": "Jenis Kendaraan"
+    },
+    "arrived": {
+        "you_arrived": "Kamu sudah sampai!",
+        "text": "Silakan pindai kode QR parkir Anda di mesin pemindai untuk masuk",
+        "okay": "Oke",
+        "scan_ticket_success": "Pindai Sukses Tiket",
+        "countdown_text": "Kendaraan Anda diparkir dan waktu akan dihitung mundur"
+    },
+    "login": {
+        "login": "Gabung",
+        "phone_number": "Nomor telepon",
+        "please_text": "Harap masukkan nomor telepon Anda dan login akun Anda"
+    },
+    "otp": {
+        "resend": "Ulang",
+        "verify": "Memeriksa",
+        "please_wait": "Harap tunggu",
+        "otp_title": "Verifikasi OTP",
+        "confirmation_text": "Kode Konfirmasi telah dikirimkan kepada Anda di nomor ponsel Anda +91 1234567890"
+    },
+    "register": {
+        "register": "Daftar",
+        "email_address": "Alamat email",
+        "phone_number": "Nomor telepon",
+        "user_name": "Nama belakang",
+        "please_text": "Harap isi detail di bawah ini dan buat akun Anda"
+    },
+    "book_parking_detail": {
+        "book_parking_detail": "Detail parkir buku",
+        "price": "Harga",
+        "hours": "jam",
+        "total_price": "Total harga",
+        "continue": "Melanjutkan",
+        "start_hour": "Jam mulai",
+        "end_hour": "Jam Akhir",
+        "duration": "Durasi",
+        "select_date": "Pilih Tanggal"
+    },
+    "bookmark": {
+        "my_bookmark": "Bookmark saya",
+        "no_bookmark_here": "Tidak ada bookmark di sini",
+        "removed_from_bookmark": "Dihapus dari bookmark",
+        "per_hour": "per jam",
+        "distance_value": "Nilai jarak",
+        "min_walk": "Min Walk",
+        "slot_available": "Slot tersedia",
+        "slot": "slot",
+        "book_now": "Pesan sekarang"
+    },
+    "bottomBar": {
+        "near_by": "Di dekat sini",
+        "booking": "Pemesanan",
+        "saved": "Diselamatkan",
+        "pofile": "Profil"
+    },
+    "confirmation": {
+        "booking_confirmation": "Konfirmasi pemesanan",
+        "confirm_payment": "Konfirmasi pembayaran",
+        "successful": "Sukses!",
+        "successful_text": "Berhasil melakukan pembayaran untuk parkir Anda",
+        "view_parking_ticket": "Lihat tiket parkir",
+        "back_home": "Kembali ke rumah",
+        "credit_card": "Kartu kredit",
+        "date": "Tanggal",
+        "duration": "Durasi",
+        "vehicle": "Kendaraan",
+        "hours": "Jam",
+        "parking_slot": "Tempat parkir",
+        "price": "Harga (per jam)",
+        "tax": "Pajak",
+        "total_price": "Total harga",
+        "hour": "jam",
+        "Hours": "jam"
+    },
+    "credit_card": {
+        "credit_card": "Kartu kredit",
+        "payment": "Pembayaran",
+        "enter_card_details": "Masukkan detail kartu Anda",
+        "save_this_card": "Simpan kartu ini",
+        "enter_card_name": "Masukkan Nama Pemegang Kartu",
+        "name_card": "Nama di kartu",
+        "enter_card_number": "Masukkan nomor kartu",
+        "card_number": "Nomor kartu",
+        "expire_date": "Tanggal kadaluarsa",
+        "CVV": "cvv"
+    },
+    "detail": {
+        "add_bookmark": "Ditambahkan ke Bookmark",
+        "remove_bookmark": "Dihapus dari bookmark",
+        "more_image": "Lebih banyak gambar",
+        "get_direction": "Dapatkan arah",
+        "book_now": "Pesan sekarang",
+        "rate_review": "Nilai dan ulasan",
+        "see_all": "Lihat semua",
+        "facility_provide": "Fasilitas yang kami sediakan",
+        "information": "Informasi",
+        "hours": "jam",
+        "slot": "slot"
+    },
+    "direction": {
+        "search": "Mencari"
+    },
+    "extend_parking_time": {
+        "extend_parking_time": "Perpanjang waktu parkir",
+        "price": "Harga",
+        "hours": "jam",
+        "total_price": "Total harga",
+        "continue": "Melanjutkan",
+        "start_hour": "Jam mulai",
+        "end_hour": "Jam Akhir",
+        "duration": "Durasi",
+        "find": "Temukan tempat parkir Anda",
+        "search": "Mencari",
+        "filter": "Saring",
+        "clear_all": "Bersihkan semua",
+        "apply": "Menerapkan",
+        "rating": "Peringkat",
+        "distance": "Jarak",
+        "per_hour": "per jam",
+        "distance_value": "Nilai jarak",
+        "min_walk": "Min Walk",
+        "slot_available": "Slot tersedia",
+        "slot": "slot",
+        "book_now": "Pesan sekarang"
+    },
+    "my_booking": {
+        "active_now": "Aktif sekarang",
+        "paid": "Dibayar",
+        "my_booking": "Pemesanan saya",
+        "hour": "jam",
+        "no_booking_yet": "Belum ada pemesanan",
+        "view_ticket": "Tiket Lihat",
+        "cancel_booking": "Batalkan pemesanan",
+        "are_you_sure_message": "Anda yakin ingin membatalkan reservasi parkir Anda?",
+        "content": "Hanya diskon 80% uang yang dapat Anda pengembalian uang dari paayment Anda sesuai dengan kebijakan kami",
+        "close": "Menutup",
+        "yes_continue": "Ya lanjutkan",
+        "give_rate": "Memberi tingkat",
+        "your_review": "Ulasan Anda",
+        "please_text": "Tolong beri tarif parkir hoiles hapton",
+        "say_something": "Katakan sesuatu",
+        "remind_later": "Ingatkan aku nanti",
+        "send": "Mengirim",
+        "view_timer": "Lihat pengatur waktu",
+        "ongoing_booking": "Pemesanan yang sedang berlangsung",
+        "booking_history": "Sejarah Pemesanan"
+    },
+    "notification": {
+        "notification": "Pemberitahuan",
+        "no_notification": "Tidak ada pemberitahuan baru",
+        "today": "Hari ini",
+        "yesterday": "Kemarin",
+        "removed_notification": "Dihapus dari pemberitahuan"
+    },
+    "onboarding": {
+        "title1": "Jelajahi tempat parkir terdekat",
+        "text1": "Cari taman terdekat di daerah Anda, pra pra dan amankan pra tempat parkir Anda",
+        "title2": "Tidak ada lagi menunggu tiket parkir",
+        "text2": "Pesan ruang Anda dan hindari menunggu antrian panjang untuk tiket",
+        "title3": "Pesan & Pembayaran dengan Mudah",
+        "text3": "Tidak ada lagi menunggu tiket parkir, pesan dengan mudah dan mudah dibayar melalui mode online",
+        "login": "GABUNG",
+        "next": "BERIKUTNYA",
+        "skip": "MELEWATI"
+    },
+    "parking_ticket": {
+        "parking_ticket": "Tiket parkir",
+        "not_now": "Tidak sekarang",
+        "get_direction": "Dapatkan arah",
+        "scan_text": "Pindai ini di mesin pemindai saat Anda berada di parkir",
+        "payment": "Pembayaran",
+        "creditcard": "kartu kredit",
+        "name": "Nama",
+        "parking_slot": "Tempat parkir",
+        "parking_area": "Area parkir",
+        "vehicle": "Kendaraan",
+        "duration": "Durasi",
+        "date": "Tanggal",
+        "Hour": "Jam",
+        "phone": "Telepon"
+    },
+    "parking_time": {
+        "parking_time": "Waktu parkir",
+        "extend_parking_time": "Perpanjang waktu parkir",
+        "name": "Nama",
+        "parking_slot": "Tempat parkir",
+        "parking_area": "Area parkir",
+        "vehicle": "Kendaraan",
+        "duration": "Durasi",
+        "date": "Tanggal",
+        "hour": "Jam",
+        "phone": "Telepon"
+    },
+    "payment_method": {
+        "payment_method": "Cara Pembayaran",
+        "continue": "Melanjutkan",
+        "total_payment": "Total pembayaran"
+    },
+    "app_settings": {
+        "app_settings": "Pengaturan aplikasi",
+        "notification": "Pemberitahuan",
+        "location": "Lokasi",
+        "application_update": "Pembaruan Aplikasi",
+        "dark_mode": "Mode gelap"
+    },
+    "edit_profile": {
+        "edit_profile": "Sunting profil",
+        "update": "Memperbarui",
+        "email_address": "Alamat email",
+        "enter_email_address": "Masukkan alamat email Anda",
+        "name": "Nama",
+        "enter_name": "Masukkan nama Anda",
+        "mobile_number": "Nomor handphone",
+        "enter_mobile_number": "Masukkan nomor ponsel",
+        "change_photo": "Ubah foto profil",
+        "camera": "Kamera",
+        "gallery": "Galeri",
+        "remove_image": "Hapus gambar"
+    },
+    "help_support": {
+        "help_support": "Bantuan & Dukungan",
+        "quick_contact": "Kontak cepat",
+        "send": "Mengirim",
+        "message": "Pesan",
+        "write_message_here": "Tulis pesan di sini",
+        "email_address": "Alamat email",
+        "enter_email_address": "Masukkan alamat email Anda",
+        "name": "Nama",
+        "enter_name": "Masukkan nama Anda",
+        "call_us": "Hubungi kami",
+        "mail_us": "Kirimkan kami"
+    },
+    "languages": {
+        "language": "Bahasa",
+        "update": "Memperbarui"
+    },
+    "my_vehicle": {
+        "my_vehicle": "Kendaraan saya",
+        "add_new_vehicle": "Tambahkan kendaraan baru"
+    },
+    "privacy_policy": {
+        "privacy_policy": "Kebijakan pribadi"
+    },
+    "profile": {
+        "profile": "Profil",
+        "wallet": "Dompet",
+        "my_vehicle": "Kendaraan saya",
+        "help_support": "Bantuan & Dukungan",
+        "privacy_policy": "Kebijakan pribadi",
+        "terms_condition": "Syarat dan Kondisi",
+        "language": "Bahasa",
+        "app_settings": "Pengaturan aplikasi",
+        "logout": "Keluar",
+        "sure_text": "Apakah Anda yakin ingin keluar dari aplikasi ini?",
+        "no": "TIDAK",
+        "yes_logout": "Ya Logout",
+        "edit_profile": "Sunting profil",
+        "change_photo": "Ubah foto profil",
+        "camera": "Kamera",
+        "gallery": "Galeri",
+        "remove_image": "Hapus gambar"
+    },
+    "term_and_condition": {
+        "terms_and_condition": "Syarat dan Kondisi"
+    },
+    "wallet": {
+        "wallet": "Dompet",
+        "total_amount": "Jumlah total",
+        "add_money": "Tambahkan uang",
+        "send_bank": "Kirim ke Bank"
+    },
+    "review": {
+        "review": "Tinjauan"
+    },
+    "select_slot": {
+        "select_slot": "Pilih slot Anda",
+        "exit": "KELUAR",
+        "entry": "Pintu masuk",
+        "proceed_slot": "Lanjutkan dengan slot B1"
+    },
+    "select_vehicle": {
+        "select_vehicle": "Pilih kendaraan Anda",
+        "continue": "Melanjutkan",
+        "add_vehicle": "Tambahkan kendaraan baru"
+    }
+}
