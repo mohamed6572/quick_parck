@@ -1,4 +1,5 @@
 import 'package:dotted_border/dotted_border.dart';
+import '../../constants/user_data.dart';
 import '../../localization/localization_const.dart';
 import 'package:flutter/material.dart';
 
@@ -61,6 +62,7 @@ class _BookingConfirmationScreenState extends State<BookingConfirmationScreen> {
   confirmPayment(Size size) {
     return GestureDetector(
       onTap: () {
+        reservation();
         successDialog(size);
       },
       child: Container(
@@ -238,23 +240,23 @@ class _BookingConfirmationScreenState extends State<BookingConfirmationScreen> {
       child: Column(
         children: [
           bookingWidget(
-              getTranslation(context, 'confirmation.date'), "April 16,2022"),
+              getTranslation(context, 'confirmation.date'), "$date"),
           bookingWidget(
-              getTranslation(context, 'confirmation.duration'), "4 hour"),
+              getTranslation(context, 'confirmation.duration'), "$duration hour"),
           bookingWidget(getTranslation(context, 'confirmation.vehicle'),
               "Toyota corolla(HJ4562Hk)"),
           bookingWidget(getTranslation(context, 'confirmation.hours'),
-              "09:00 AM-13.00 PM"),
+              "$start_time-$end_time"),
           bookingWidget(getTranslation(context, 'confirmation.parking_slot'),
-              "1st floor B1"),
+              "$slot"),
           height5Space,
           divider(),
           height5Space,
           bookingWidget(getTranslation(context, 'confirmation.price'), "\$5"),
           bookingWidget(getTranslation(context, 'confirmation.tax'), "\$0"),
           bookingWidget(
-              "${getTranslation(context, 'confirmation.total_price')}(4 ${getTranslation(context, 'confirmation.hour')})",
-              "\$20"),
+              "${getTranslation(context, 'confirmation.total_price')}($duration ${getTranslation(context, 'confirmation.hour')})",
+              "\$$price"),
         ],
       ),
     );
@@ -325,13 +327,13 @@ class _BookingConfirmationScreenState extends State<BookingConfirmationScreen> {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text(
-                  "Easkartoon shopping mall",
+                  "$name",
                   style: bold16LightBlack,
                   overflow: TextOverflow.ellipsis,
                 ),
                 height5Space,
                 Text(
-                  "1024 Botanic garden road,new york",
+                  "$description",
                   style: semibold14Grey,
                   overflow: TextOverflow.ellipsis,
                 ),

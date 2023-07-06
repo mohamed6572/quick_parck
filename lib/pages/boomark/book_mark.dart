@@ -16,49 +16,14 @@ class _BookMarkScreenState extends State<BookMarkScreen> {
   final bookmarkList = [
     {
       "image": "assets/myBooking/image1.png",
-      "parkingName": "Hapton holies parking",
-      "adress": "1024 Botanic garden road,new york",
-      "price": "\$3",
+      "parkingName": "Smart village parking",
+      "adress": "smart village , giza alex road ,cairo",
+      "price": "\$5",
       "distance": 3,
-      "slot": 25,
-      "rate": 2.5,
-    },
-    {
-      "image": "assets/myBooking/image6.png",
-      "parkingName": "DMC parking spot",
-      "adress": "1024 Botanic garden road,new york",
-      "price": "\$15",
-      "distance": 4,
-      "slot": 15,
+      "slot": 4,
       "rate": 3.5,
     },
-    {
-      "image": "assets/myBooking/image2.png",
-      "parkingName": "Leed parking space",
-      "adress": "1024 Botanic garden road,new york",
-      "price": "\$3",
-      "distance": 10,
-      "slot": 30,
-      "rate": 4.5,
-    },
-    {
-      "image": "assets/myBooking/image4.png",
-      "parkingName": "EME temple parking",
-      "adress": "1024 Botanic garden road,new york",
-      "price": "\$2",
-      "distance": 12,
-      "slot": 10,
-      "rate": 2.5,
-    },
-    {
-      "image": "assets/myBooking/image1.png",
-      "parkingName": "Parking dowuntoen",
-      "adress": "1024 Botanic garden road,new york",
-      "price": "\$5",
-      "distance": 10,
-      "slot": 25,
-      "rate": 5.0,
-    }
+
   ];
 
   @override

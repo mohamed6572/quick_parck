@@ -1,3 +1,4 @@
+import '../../constants/user_data.dart';
 import '../../localization/localization_const.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +13,7 @@ class ParkingTicketScreen extends StatelessWidget {
         ModalRoute.of(context)?.settings.arguments as Map<String, dynamic>;
 
     var data = routedata['id'];
-
+int index = data;
     final size = MediaQuery.of(context).size;
     return WillPopScope(
       onWillPop: () async => onWillPop(context, data),
@@ -29,6 +30,7 @@ class ParkingTicketScreen extends StatelessWidget {
               : IconButton(
                   onPressed: () {
                     Navigator.pop(context);
+                    print(data);
                   },
                   icon: const Icon(
                     Icons.arrow_back,
@@ -43,7 +45,7 @@ class ParkingTicketScreen extends StatelessWidget {
           padding: const EdgeInsets.all(fixPadding * 2.0),
           physics: const BouncingScrollPhysics(),
           children: [
-            ticket(size, context),
+            ticket(size, context,index),
             heightSpace,
             heightSpace,
             data == 0
@@ -98,10 +100,10 @@ class ParkingTicketScreen extends StatelessWidget {
     );
   }
 
-  ticket(Size size, context) {
+  ticket(Size size, context,index) {
     return Stack(
       children: [
-        ticketDetail(size, context),
+        ticketDetail(size, context,index),
         Positioned(
           left: -20,
           right: -20,
@@ -132,7 +134,7 @@ class ParkingTicketScreen extends StatelessWidget {
     );
   }
 
-  ticketDetail(Size size, context) {
+  ticketDetail(Size size, context,index) {
     return ClipRRect(
       borderRadius: BorderRadius.circular(10.0),
       child: Container(
@@ -154,13 +156,10 @@ class ParkingTicketScreen extends StatelessWidget {
               ),
             ),
             height5Space,
-            Image.asset(
-              "assets/parkingTicket/Qr Code Image.png",
-              height: size.width * 0.3,
-            ),
+
             heightSpace,
             heightSpace,
-            parkingDetail(context),
+            parkingDetail(context,index),
             heightSpace,
             heightSpace,
             Container(
@@ -169,7 +168,7 @@ class ParkingTicketScreen extends StatelessWidget {
               decoration: const BoxDecoration(color: Color(0xFFF0EEEE)),
               alignment: Alignment.center,
               child: Text(
-                "${getTranslation(context, 'parking_ticket.payment')} : \$20(${getTranslation(context, 'parking_ticket.creditcard')})",
+                "${getTranslation(context, 'parking_ticket.payment')} : \$${ongoingList![index]['total_price']}(${getTranslation(context, 'parking_ticket.creditcard')})",
                 style: semibold16LightBlack,
               ),
             )
@@ -179,37 +178,37 @@ class ParkingTicketScreen extends StatelessWidget {
     );
   }
 
-  parkingDetail(context) {
+  parkingDetail(context,index) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: fixPadding * 2),
       child: Column(
         children: [
           parkingDetailRow(
               getTranslation(context, 'parking_ticket.name'),
-              "Esther Howard",
+              "${ongoingList![index]['name']}",
               getTranslation(context, 'parking_ticket.parking_slot'),
-              "1st floor(B1)"),
+              "${ongoingList![index]['slot']}"),
           heightSpace,
           heightSpace,
           parkingDetailRow(
               getTranslation(context, 'parking_ticket.parking_area'),
-              "Easkartoon shopping mall , new york",
+              "${ongoingList![index]['description']}",
               getTranslation(context, 'parking_ticket.vehicle'),
               "Toyota corolla (HJ4562Hk)"),
           heightSpace,
           heightSpace,
           parkingDetailRow(
               getTranslation(context, 'parking_ticket.duration'),
-              "4 hour",
+              "${ongoingList![index]['duration']} hour",
               getTranslation(context, 'parking_ticket.date'),
-              "April 16,2022"),
+              "${ongoingList![index]['date']}"),
           heightSpace,
           heightSpace,
           parkingDetailRow(
               getTranslation(context, 'parking_ticket.Hour'),
-              "09:00 AM-13.00 PM",
+              "${ongoingList![index]['start_time']}-${ongoingList![index]['end_time']}",
               getTranslation(context, 'parking_ticket.phone'),
-              "+91 1234567890"),
+              "$phone"),
         ],
       ),
     );

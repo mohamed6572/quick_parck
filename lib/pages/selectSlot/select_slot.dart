@@ -73,6 +73,7 @@ class _SelectSlotScreenState extends State<SelectSlotScreen> {
               ],
             ),
           ),
+
           proceedButton(),
         ],
       ),
@@ -322,23 +323,28 @@ class _SelectSlotScreenState extends State<SelectSlotScreen> {
           top: fixPadding),
       child: GestureDetector(
         onTap: () {
-          updateDocument(selectedindex);
-        setState(() {
-          getSlots();
-        });
-          Navigator.pushNamed(context, '/paymentMethods');
+
+          if( aSlotList[0]['AlreadyBooking']!=true||aSlotList[1]['AlreadyBooking']!=true||aSlotList[1]['AlreadyBooking']!=true||aSlotList[3]['AlreadyBooking']!=true) {
+            updateDocument(selectedindex);
+            setState(() {
+
+slot=aSlotList[selectedindex]['name'];
+              getSlots();
+            });
+            Navigator.pushNamed(context, '/paymentMethods');
+          }
         },
         child: Container(
           width: double.maxFinite,
           padding: const EdgeInsets.all(fixPadding * 1.4),
           decoration: BoxDecoration(
-            color: primaryColor,
+            color:( aSlotList[0]['AlreadyBooking']!=true||aSlotList[1]['AlreadyBooking']!=true||aSlotList[1]['AlreadyBooking']!=true||aSlotList[3]['AlreadyBooking']!=true)? primaryColor : Colors.grey,
             borderRadius: BorderRadius.circular(10.0),
             boxShadow: [buttonShadow],
           ),
           alignment: Alignment.center,
           child: Text(
-            getTranslation(context, 'select_slot.proceed_slot'),
+          ( aSlotList[0]['AlreadyBooking']!=true||aSlotList[1]['AlreadyBooking']!=true||aSlotList[1]['AlreadyBooking']!=true||aSlotList[3]['AlreadyBooking']!=true)?getTranslation(context, 'select_slot.proceed_slot'):'NO Slots',
             style: bold18LightBlack,
           ),
         ),

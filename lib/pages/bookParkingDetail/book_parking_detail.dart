@@ -85,8 +85,8 @@ class _BookParkingDetailScreenState extends State<BookParkingDetailScreen> {
           height5Space,
           priceWidget(
               getTranslation(context, 'book_parking_detail.total_price'),
-              "\$20.00",
-              "4 ${getTranslation(context, 'book_parking_detail.hours')}"),
+              "\$ ${_value.toInt()*5}",
+              "${_value.toInt()} ${getTranslation(context, 'book_parking_detail.hours')}"),
           heightSpace,
           heightSpace,
           heightSpace,
@@ -100,6 +100,21 @@ class _BookParkingDetailScreenState extends State<BookParkingDetailScreen> {
   continueButton() {
     return GestureDetector(
       onTap: () {
+        print(startHourController.text);
+        print(endHourController.text);
+        print(_value.toInt()*5);
+        print('${selectedDate.day}/${selectedDate.month}/${selectedDate.year}');
+
+        price= _value.toInt()*5 ;
+        start_time= startHourController.text ;
+        end_time=endHourController.text  ;
+        duration= "${_value.toInt()}" ;
+        date=  '${selectedDate.day}/${selectedDate.month}/${selectedDate.year}';
+print(price);
+print(start_time);
+print(end_time);
+print(duration);
+print(date);
         Navigator.pushNamed(context, '/selectSlot');
       },
       child: Container(
@@ -250,6 +265,7 @@ class _BookParkingDetailScreenState extends State<BookParkingDetailScreen> {
             onChanged: (value) {
               setState(() {
                 _value = value;
+                print(_value.toInt());
               });
             },
             value: _value,
@@ -308,6 +324,8 @@ class _BookParkingDetailScreenState extends State<BookParkingDetailScreen> {
           onDateChanged: (date) {
             setState(() {
               selectedDate = date;
+              /// to take date from UI
+              print('${selectedDate.day}/${selectedDate.month}/${selectedDate.year}');
             });
           },
         ),

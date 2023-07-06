@@ -1,3 +1,4 @@
+import '../../constants/user_data.dart';
 import '../../localization/localization_const.dart';
 import '../../pages/profile/languages.dart';
 import '../../theme/theme.dart';
@@ -21,48 +22,10 @@ class _MyBookingScreenState extends State<MyBookingScreen>
     super.initState();
   }
 
-  List? ongoingList = [
-    {
-      "status": translation('my_booking.active_now'),
-      "data": [
-        {
-          "title": "Hapton holies parking",
-          "image": "assets/myBooking/image6.png",
-          "address": "1024 Botanic garden road,new york",
-          "date": "3 April 2022",
-          "price": "\$5",
-          "rate": 4.5,
-          "hour": 1
-        },
-      ]
-    },
-    {
-      "status": translation('my_booking.paid'),
-      "data": [
-        {
-          "title": "Easkartoon shopping mall",
-          "image": "assets/myBooking/image2.png",
-          "address": "1024 Botanic garden road,new york",
-          "date": "3 April 2022",
-          "price": "\$15",
-          "rate": 3.5,
-          "hour": 2
-        },
 
-      ]
-    }
-  ];
 
   List bookingHistory = [
-    {
-      "title": "Hapton holies parking",
-      "image": "assets/myBooking/image6.png",
-      "address": "1024 Botanic garden road,new york",
-      "date": "3 April 2022",
-      "price": "\$20",
-      "rate": 4.5,
-      "hour": 4
-    },
+
 
   ];
 
@@ -107,11 +70,24 @@ class _MyBookingScreenState extends State<MyBookingScreen>
       ),
       body: Column(
         children: [
-          tabBar(),
+
+          Row(
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: [
+              Padding(
+                padding: const EdgeInsets.only(left: 30,top: 10),
+                child: Text(
+                  'Paid',
+                  style: bold16LightBlack,
+                ),
+              ),
+            ],
+          ),
           Expanded(
             child: TabBarView(
               controller: tabController,
               children: [
+
                 ongoingList!.isEmpty
                     ? emptyBookingListContent()
                     : ongoingListContent(size),
@@ -190,12 +166,12 @@ class _MyBookingScreenState extends State<MyBookingScreen>
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            bookingHistory[index]['title'].toString(),
+                            bookingHistory[index]['name'].toString(),
                             style: semibold16LightBlack,
                             overflow: TextOverflow.ellipsis,
                           ),
                           Text(
-                            bookingHistory[index]['address'].toString(),
+                            bookingHistory[index]['description'].toString(),
                             style: semibold14Grey,
                             overflow: TextOverflow.ellipsis,
                           ),
@@ -206,12 +182,12 @@ class _MyBookingScreenState extends State<MyBookingScreen>
                           ),
                           Text.rich(
                             TextSpan(
-                                text: "${bookingHistory[index]['price']}/",
+                                text: "${bookingHistory[index]['total_price']}/",
                                 style: semibold16LightBlack,
                                 children: [
                                   TextSpan(
                                       text:
-                                          "${bookingHistory[index]['hour']} ${getTranslation(context, 'my_booking.hour')}",
+                                          "${bookingHistory[index]['duration']} ${getTranslation(context, 'my_booking.hour')}",
                                       style: semibold12Grey)
                                 ]),
                             overflow: TextOverflow.ellipsis,
@@ -262,129 +238,233 @@ class _MyBookingScreenState extends State<MyBookingScreen>
       physics: const BouncingScrollPhysics(),
       itemCount: ongoingList!.length,
       itemBuilder: (context, index) {
-        final item = ongoingList![index];
+        final itemData = ongoingList![index];
         return Padding(
           padding: EdgeInsets.only(bottom: index == 0 ? fixPadding : 0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(
-                item['status'].toString(),
-                style: bold16LightBlack,
-              ),
-              ColumnBuilder(
-                itemBuilder: (context, dataIndex) {
-                  final itemData = item['data'][dataIndex];
-                  return Container(
-                    margin: const EdgeInsets.symmetric(vertical: fixPadding),
-                    width: double.maxFinite,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10.0),
-                      boxShadow: [boxShadow],
-                      color: whiteColor,
-                    ),
-                    child: Column(
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.all(fixPadding),
-                          child: Row(
-                            children: [
-                              Container(
-                                height: size.width * 0.2,
-                                width: size.width * 0.25,
-                                decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(5.0),
-                                  boxShadow: [boxShadow],
-                                  image: DecorationImage(
-                                    image: AssetImage(
-                                      itemData['image'].toString(),
-                                    ),
-                                    fit: BoxFit.cover,
-                                  ),
+
+              Container(
+                margin: const EdgeInsets.symmetric(vertical: fixPadding),
+                width: double.maxFinite,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10.0),
+                  boxShadow: [boxShadow],
+                  color: whiteColor,
+                ),
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(fixPadding),
+                      child: Row(
+                        children: [
+                          Container(
+                            height: size.width * 0.2,
+                            width: size.width * 0.25,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(5.0),
+                              boxShadow: [boxShadow],
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                  itemData['image'].toString(),
                                 ),
-                                alignment: Alignment.bottomRight,
-                                child: Container(
-                                  padding: const EdgeInsets.all(3.0),
-                                  decoration: const BoxDecoration(
-                                    color: whiteColor,
-                                    borderRadius: BorderRadius.only(
-                                      bottomRight: Radius.circular(5.0),
-                                    ),
-                                  ),
-                                  child: Row(
-                                    mainAxisSize: MainAxisSize.min,
-                                    children: [
-                                      const Icon(
-                                        Icons.star,
-                                        color: textColor,
-                                        size: 16,
-                                      ),
-                                      widthBox(3.0),
-                                      Text(
-                                        itemData['rate'].toString(),
-                                        style: semibold14LightBlack,
-                                      )
-                                    ],
-                                  ),
+                                fit: BoxFit.cover,
+                              ),
+                            ),
+                            alignment: Alignment.bottomRight,
+                            child: Container(
+                              padding: const EdgeInsets.all(3.0),
+                              decoration: const BoxDecoration(
+                                color: whiteColor,
+                                borderRadius: BorderRadius.only(
+                                  bottomRight: Radius.circular(5.0),
                                 ),
                               ),
-                              widthSpace,
-                              Expanded(
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Text(
-                                      itemData['title'].toString(),
-                                      style: semibold16LightBlack,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                    Text(
-                                      itemData['address'].toString(),
-                                      style: semibold14Grey,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                    Text(
-                                      itemData['date'].toString(),
-                                      style: semibold14Grey,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                    Text.rich(
-                                      TextSpan(
-                                          text: "${itemData['price']}/",
-                                          style: semibold16LightBlack,
-                                          children: [
-                                            TextSpan(
-                                                text:
-                                                    "${itemData['hour']} ${getTranslation(context, 'my_booking.hour')}",
-                                                style: semibold12Grey)
-                                          ]),
-                                      overflow: TextOverflow.ellipsis,
-                                    )
-                                  ],
-                                ),
-                              )
-                            ],
+                              child: Row(
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  const Icon(
+                                    Icons.star,
+                                    color: textColor,
+                                    size: 16,
+                                  ),
+                                  widthBox(3.0),
+                                  Text(
+                                    itemData['rate'].toString(),
+                                    style: semibold14LightBlack,
+                                  )
+                                ],
+                              ),
+                            ),
                           ),
-                        ),
-                        Row(
-                          children: [
-                            item['status'] ==
-                                    getTranslation(
-                                        context, 'my_booking.active_now')
-                                ? viewTimerButton()
-                                : cancelBookingButton(index, dataIndex, item),
-                            viewTicketButton(() {
-                              Navigator.pushNamed(context, '/parkingTicket',
-                                  arguments: {"id": 2});
-                            })
-                          ],
-                        )
-                      ],
+                          widthSpace,
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  itemData['name'].toString(),
+                                  style: semibold16LightBlack,
+                                  overflow: TextOverflow.ellipsis,
+                                ),
+                                Text(
+                                  itemData['description'].toString(),
+                                  style: semibold14Grey,
+                                  overflow: TextOverflow.ellipsis,
+                                ),
+                                Text(
+                                  itemData['date'].toString(),
+                                  style: semibold14Grey,
+                                  overflow: TextOverflow.ellipsis,
+                                ),
+                                Text.rich(
+                                  TextSpan(
+                                      text: "\$${itemData['total_price']}/",
+                                      style: semibold16LightBlack,
+                                      children: [
+                                        TextSpan(
+                                            text:
+                                            "${itemData['duration']} ${getTranslation(context, 'my_booking.hour')}",
+                                            style: semibold12Grey)
+                                      ]),
+                                  overflow: TextOverflow.ellipsis,
+                                )
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
                     ),
-                  );
-                },
-                itemCount: item['data'].length,
-              )
+                    Row(
+                      children: [
+                        false ==
+                            getTranslation(
+                                context, 'my_booking.active_now')
+                            ? viewTimerButton()
+                            : cancelBookingButton(index),
+                        viewTicketButton(() {
+                          Navigator.pushNamed(context, '/parkingTicket',
+                              arguments: {"id": index});
+                        })
+                      ],
+                    )
+                  ],
+                ),
+              ),
+              // ColumnBuilder(
+              //   itemBuilder: (context, dataIndex) {
+              //
+              //     return Container(
+              //       margin: const EdgeInsets.symmetric(vertical: fixPadding),
+              //       width: double.maxFinite,
+              //       decoration: BoxDecoration(
+              //         borderRadius: BorderRadius.circular(10.0),
+              //         boxShadow: [boxShadow],
+              //         color: whiteColor,
+              //       ),
+              //       child: Column(
+              //         children: [
+              //           Padding(
+              //             padding: const EdgeInsets.all(fixPadding),
+              //             child: Row(
+              //               children: [
+              //                 Container(
+              //                   height: size.width * 0.2,
+              //                   width: size.width * 0.25,
+              //                   decoration: BoxDecoration(
+              //                     borderRadius: BorderRadius.circular(5.0),
+              //                     boxShadow: [boxShadow],
+              //                     image: DecorationImage(
+              //                       image: NetworkImage(
+              //                         itemData['image'].toString(),
+              //                       ),
+              //                       fit: BoxFit.cover,
+              //                     ),
+              //                   ),
+              //                   alignment: Alignment.bottomRight,
+              //                   child: Container(
+              //                     padding: const EdgeInsets.all(3.0),
+              //                     decoration: const BoxDecoration(
+              //                       color: whiteColor,
+              //                       borderRadius: BorderRadius.only(
+              //                         bottomRight: Radius.circular(5.0),
+              //                       ),
+              //                     ),
+              //                     child: Row(
+              //                       mainAxisSize: MainAxisSize.min,
+              //                       children: [
+              //                         const Icon(
+              //                           Icons.star,
+              //                           color: textColor,
+              //                           size: 16,
+              //                         ),
+              //                         widthBox(3.0),
+              //                         Text(
+              //                           itemData['rate'].toString(),
+              //                           style: semibold14LightBlack,
+              //                         )
+              //                       ],
+              //                     ),
+              //                   ),
+              //                 ),
+              //                 widthSpace,
+              //                 Expanded(
+              //                   child: Column(
+              //                     crossAxisAlignment: CrossAxisAlignment.start,
+              //                     children: [
+              //                       Text(
+              //                         itemData['name'].toString(),
+              //                         style: semibold16LightBlack,
+              //                         overflow: TextOverflow.ellipsis,
+              //                       ),
+              //                       Text(
+              //                         itemData['description'].toString(),
+              //                         style: semibold14Grey,
+              //                         overflow: TextOverflow.ellipsis,
+              //                       ),
+              //                       Text(
+              //                         itemData['date'].toString(),
+              //                         style: semibold14Grey,
+              //                         overflow: TextOverflow.ellipsis,
+              //                       ),
+              //                       Text.rich(
+              //                         TextSpan(
+              //                             text: "\$${itemData['total_price']}/",
+              //                             style: semibold16LightBlack,
+              //                             children: [
+              //                               TextSpan(
+              //                                   text:
+              //                                       "${itemData['duration']} ${getTranslation(context, 'my_booking.hour')}",
+              //                                   style: semibold12Grey)
+              //                             ]),
+              //                         overflow: TextOverflow.ellipsis,
+              //                       )
+              //                     ],
+              //                   ),
+              //                 )
+              //               ],
+              //             ),
+              //           ),
+              //           Row(
+              //             children: [
+              //               false ==
+              //                       getTranslation(
+              //                           context, 'my_booking.active_now')
+              //                   ? viewTimerButton()
+              //                   : cancelBookingButton(index, dataIndex),
+              //               viewTicketButton(() {
+              //                 Navigator.pushNamed(context, '/parkingTicket',
+              //                     arguments: {"id": index});
+              //               })
+              //             ],
+              //           )
+              //         ],
+              //       ),
+              //     );
+              //   },
+              //   itemCount: ongoingList!.length,
+              // )
             ],
           ),
         );
@@ -422,11 +502,14 @@ class _MyBookingScreenState extends State<MyBookingScreen>
     );
   }
 
-  cancelBookingButton(index, dataIndex, item) {
+  cancelBookingButton(index) {
     return Expanded(
       child: GestureDetector(
         onTap: () {
-          cancelBookingBottomSheet(item, dataIndex, index);
+        setState(() {
+          deleteBooking(index);
+        });
+         //cancelBookingBottomSheet(item, dataIndex, index);
         },
         child: Container(
           padding: const EdgeInsets.all(fixPadding),

@@ -1,3 +1,5 @@
+import 'package:quick_parck/constants/user_data.dart';
+
 import '../../localization/localization_const.dart';
 import '../../widget/column_builder.dart';
 import 'package:flutter/material.dart';
@@ -92,7 +94,7 @@ class _PaymentMethodsScreenState extends State<PaymentMethodsScreen> {
         style: semibold16LightBlack,
         children: [
           const TextSpan(text: " : "),
-          TextSpan(text: "\$20.00", style: bold18LightBlack)
+          TextSpan(text: "\$$price", style: bold18LightBlack)
         ],
       ),
     );
